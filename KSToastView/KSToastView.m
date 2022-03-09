@@ -295,7 +295,7 @@ static NSTextAlignment _textAligment = NSTextAlignmentCenter;
 }
 
 + (UIView *)_keyWindow {
-	return [UIApplication sharedApplication].delegate.window;
+    return [UIApplication sharedApplication].keyWindow;
 }
 
 @end
